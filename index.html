@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -35,10 +36,11 @@
                 <div class="greting-fulltext">
                     <p>I am junior Frontend-Developer.I love codding.I dont like mathematic geometric</p>
                 </div>
-                <a href="cv.pdf" download class="cv">
+                <button class="cv" id="downloadCV" onclick="downloadCV()">
                     <p class="text-cv">Download CV</p>
-                    <img src="img/icon-cv.svg" alt="Download CV">
-                </a>
+                    <img src="img/icon-cv.svg" alt="">
+                </button>
+
 
             </div>
             <div class="greeting-image-block">
@@ -85,6 +87,7 @@
             </div>
         </div>
     </main>
+    
 </body>
 
 </html>

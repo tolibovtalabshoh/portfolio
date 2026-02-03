@@ -51,27 +51,17 @@ body{
 .cv {
   background-color: blue;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   gap: 10px;
 
   padding: 12px 20px;
   color: white;
+  border: none;
   border-radius: 10px;
-  text-decoration: none;
   cursor: pointer;
-
-  transition: 0.3s ease;
 }
 
-.cv:hover {
-  background-color: darkblue;
-  transform: scale(1.05);
-}
-
-.cv img {
-  width: 20px;
-}
 
 .greting-name>strong{
     font-size: 40px;
