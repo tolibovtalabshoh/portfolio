@@ -165,3 +165,52 @@ body{
 .social-icon{
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 140px;
+  }
+  .links {
+    flex-direction: column;
+    text-align: center;
+  }
+  .greeting{
+    flex-direction: column;
+    margin-left: 140px;
+  }
+  .greeting-image-block{
+    margin-top: 50px;
+    width: 600px;
+  }
+  
+  .bio-block{
+    flex-direction: column
+  }
+  .bio-text{
+    width: 748px;
+  }
+  .skills{
+    padding-left: 135px;
+    text-align: center;
+  }
+  .skills-icon{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    margin-right: 0;
+  }
+  .skill-icon{
+    margin-left: 35px;
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .ahievment-block{
+    margin-left: 170px;
+    text-align: center;
+  }
+}
+
+
